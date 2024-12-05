@@ -1,0 +1,47 @@
+{
+  "name": "OkCupid-Clone",
+  "version": "1.0.0",
+  "description": "[Heroku link][heroku] **NB:** TBD",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+
+  "engines": {
+   "node": "4.1.1",
+   "npm": "2.1.x"
+  },
+
+  "scripts": {
+   "heroku-postbuild": "webpack --config webpack.config.prod.js",
+   "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PFRao/OkCupid-Clone.git"
+  },
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PFRao/OkCupid-Clone/issues"
+  },
+
+  "homepage": "https://github.com/PFRao/OkCupid-Clone#readme",
+  "dependencies": {
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-preset-react": "^6.5.0",
+    "flux": "^2.1.1",
+    "react": "^15.1.0",
+    "react-addons-linked-state-mixin": "^0.14.8",
+    "react-dom": "^15.1.0",
+    "react-modal": "^1.3.0",
+    "react-native-simple-modal": "^3.0.4",
+    "react-router": "^2.4.1",
+    "webpack": "^1.13.1"
+  }
+}

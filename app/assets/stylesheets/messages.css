@@ -1,0 +1,149 @@
+.message_main {
+  color: #2F4F4F;
+  margin: 20px auto;
+  border-radius: 5px;
+  background: #f3f5f9;
+  padding: 20px 50px;
+  width: 800px;
+}
+
+.message_main > h1 {
+  padding: 20px;
+  font-size: 24px;
+  text-decoration: underline;
+}
+
+.sent_message {
+  position: relative;
+}
+
+.received_message {
+  position: relative;
+}
+
+.message_index_item {
+  text-decoration: none;
+  color: #2F4F4F;
+  display: block;
+  width: 350px;
+  margin:50px;
+  border-top-left-radius: 1000px;
+  border-top-right-radius: 300px;
+  border-bottom-left-radius: 700px;
+  border-bottom-right-radius: 300px;
+
+  -webkit-transition: all 0.3s ease, background-color 0.3s ease;
+  -moz-transition: all 0.3s ease, background-color 0.3s ease;
+  -o-transition: all 0.3s ease, background-color 0.3s ease;
+  -ms-transition: all 0.3s ease, background-color 0.3s ease;
+  transition: all 0.3s ease, background-color 0.3s ease;
+}
+
+.message_index_item:hover {
+  transform: translate(10%, 0);
+  cursor: pointer;
+  background-color: #add8e6;
+}
+
+.message_index_item > img {
+  display: block;
+  float:left;
+  height:100px;
+  width: 100px;
+  border-radius: 50px;
+}
+
+.who_are_they {
+  display:block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: #2F4F4F;
+}
+
+.sent {
+  position: relative;
+  background: #add8e6;
+  margin: 10px 0 10px 20px;
+  text-align: right;
+  padding: 30px 30px 30px 60px;
+}
+
+.new_message_box {
+  position: relative;
+  background: #add8e6;
+  margin: 10px 0 10px 20px;
+  text-align: right;
+  padding: 30px;
+}
+
+.my_picture {
+  top: 12px;
+  left: -50px;
+}
+
+.received {
+  position: relative;
+  background: #d3d3d3;
+  padding: 30px;
+  margin: 10px 20px 10px 0;
+  padding: 30px 60px 30px 30px;
+}
+
+.their_picture {
+  top: 12px;
+  left: 725px;
+}
+
+.message_timestamp {
+  font-style: italic;
+}
+
+.new_message_text {
+  display: block;
+  background: white;
+  color: black;
+  border: 1px solid #aeb4bf;
+  border-radius: 2px;
+  padding: 10px;
+  width: 698px;
+  height: 100px;
+  margin: 0 0 10px 0;
+  text-align: left;
+  resize:none;
+}
+
+.submit_that_message {
+  display: block;
+  background-color: #3260c7;
+  color: #f3f5f9;
+  border-radius: 2px;
+  padding: 15px;
+  font-weight: 1000;
+}
+
+.submit_that_message:hover {
+  background: #4c7bd9;
+}
+
+.submit_that_message:active {
+}
+
+.message_detail_list {
+  margin: 20px auto;
+  border-radius: 5px;
+  background: #f3f5f9;
+  padding: 20px 50px;
+  width: 800px;
+}
+
+.message_detail_list > h1 {
+  font-size: 24px;
+}
+
+.message_user_thumbnail {
+  position: absolute;
+  height:100px;
+  width: 100px;
+  border-radius: 50px;
+}

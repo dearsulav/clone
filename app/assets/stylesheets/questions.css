@@ -1,0 +1,39 @@
+.main_question_area {
+  color: #2F4F4F;
+  margin: auto;
+  border-radius: 5px;
+  background: #f3f5f9;
+  height: auto;
+  width: 400px;
+}
+
+.question_button {
+  display: block;
+  background-color: transparent;
+  border: 2px solid #2F4F4F;
+  color: #2F4F4F;
+  padding: 10px;
+  margin:auto;
+}
+
+.question_button:hover {
+  border: 2px solid #29d58f;
+}
+
+.question_button:active {
+  border: 2px solid #FF0080;
+}
+
+.part1 {
+  margin: 10px;
+  display: block;
+  float:left;
+  padding: 10px;
+}
+
+.part2 {
+  margin: 10px;
+  display: block;
+  float:left;
+  padding: 10px;
+}

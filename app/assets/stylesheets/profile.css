@@ -1,0 +1,95 @@
+.user_profile {
+  margin: 20px auto;
+  border-radius: 5px;
+  background: #f3f5f9;
+  padding: 20px 50px;
+  width: 800px;
+}
+
+.user_name_header {
+  color: #2F4F4F;
+  font-size: 48px;
+  height: 200px;
+  line-height: 200px;
+  vertical-align: middle;
+}
+
+.main_profile_photo {
+  display: inline;
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
+
+.edit_profile_button {
+  height: 20px;
+  width: 50px;
+  background: rgb(232, 232, 232);
+  color:rgb(0,0,0);
+  text-align: center;
+  padding: 5px 10px;
+  /*border: 4px solid #2F4F4F;
+  border-radius: 7px;*/
+  margin-left: 10px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2),
+              0 3px 1px -2px rgba(0, 0, 0, 0.14),
+              0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+.profile_header {
+  font-size: 18px;
+  color: #2F4F4F;
+  margin-left: 10px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.profile_words {
+  margin: 10px;
+  color: #5e6573;
+  font-style: italic;
+  margin-left: 20px;
+}
+
+.profile_edit {
+  background: #F8F8FF;
+  color: #2F4F4F;
+  border: 1px solid #2F4F4F;
+  height: 100px;
+  width: 300px;
+}
+
+.profile_message_button {
+  display: block;
+  padding: 10px;
+  background-color:#F8F8FF;
+  color: #104da1;
+  border-radius: 3px;
+  border: 1px solid #104da1;
+  float: right;
+
+  -webkit-transition: all 0.3s ease, background-color 0.3s ease;
+  -moz-transition: all 0.3s ease, background-color 0.3s ease;
+  -o-transition: all 0.3s ease, background-color 0.3s ease;
+  -ms-transition: all 0.3s ease, background-color 0.3s ease;
+  transition: all 0.3s ease, background-color 0.3s ease;
+}
+
+.profile_message_button:hover {
+  padding: 10px;
+  background-color:#104da1;
+  color: #F8F8FF;
+  border-radius: 3px;
+  border: 1px solid #F8F8FF;
+}
+
+.last_login {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.profile_message {
+  position: relative;
+  float: right;
+  margin-left: 800px;
+}

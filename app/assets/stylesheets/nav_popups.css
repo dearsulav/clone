@@ -1,0 +1,97 @@
+.message_modal_main {
+  color: #2F4F4F;
+  margin: 5px auto;
+  border-radius: 5px;
+  background: #f3f5f9;
+  padding: 0px 20px;
+  height: 400px;
+  overflow-y: scroll;
+  /*width: px;*/
+}
+
+.message_header_thing {
+  margin-left: 10px;
+  border-bottom: 2px solid #dadce0;
+}
+
+#click_and_brag {
+  height: 10px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+  cursor:move;
+}
+
+.unreadMessage {
+  float:left;
+  height: 10px;
+  width: 10px;
+  border-radius: 5px;
+  background: #3b5998;
+}
+
+.readMessage {
+  display:none;
+}
+
+.modal_index_item {
+  text-decoration: none;
+  color: #2F4F4F;
+  display: block;
+  width: 350px;
+  height: 100px;
+  border-bottom: 2px solid #dadce0;
+  margin: 5px 0 5px 0;
+}
+
+.modal_index_item:hover {
+  cursor: pointer;
+}
+
+.modal_index_item > img {
+  display: block;
+  float:left;
+  height:80px;
+  width: 80px;
+  border-radius: 40px;
+}
+
+.modal_index_item > span {
+  position: relative;
+  left: 10px;
+}
+
+.modal_index_item > h3 {
+  position: relative;
+  left: 10px;
+}
+
+.modal_index_item > p {
+  position: relative;
+  left: 10px;
+}
+
+.redirect_modal {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.close_modal {
+  border: 1px solid black;
+  padding: 8px;
+  margin-left: 4px;
+}
+
+.quickModal {
+  color: #2F4F4F;
+  margin: 10px;
+  border-radius: 5px;
+  background: #f3f5f9;
+  padding: 10px 10px;
+  width: 400px;
+  box-shadow: 2px 5px 5px #ccc;
+}
+
+.convosModal {
+  position: absolute;
+  padding: 10px;
+}

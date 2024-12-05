@@ -1,0 +1,26 @@
+button.like_button {
+  float: right;
+  min-width: 50px;
+  background-color: #fdfd6b;
+  border-radius: 5px;
+  padding: 5px;
+  border: 5px solid #FF8300;
+  z-index: 100;
+  text-align: center;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2),
+                0 3px 1px -2px rgba(0, 0, 0, 0.14),
+                0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1),
+                background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+                color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+button.like_button:hover {
+  transform: scale(1.2, 1.2);
+  transition: all 0.15s ease-in-out;
+}
+
+button.like_button:active {
+  background-color: #FF8300;
+  border: 5px solid red;
+}
